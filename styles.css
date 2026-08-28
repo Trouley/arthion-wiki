@@ -56,6 +56,23 @@ button {
   pointer-events: none;
 }
 
+.page-credit {
+  position: fixed;
+  top: 0.85rem;
+  right: 1rem;
+  z-index: 6;
+  max-width: min(30rem, calc(100vw - 20rem));
+  padding: 0.35rem 0.55rem;
+  border: 1px solid rgba(231, 189, 111, 0.22);
+  border-radius: 6px;
+  background: rgba(9, 10, 14, 0.58);
+  color: #d9c5a0;
+  backdrop-filter: blur(10px);
+  font-size: 0.76rem;
+  line-height: 1.35;
+  text-align: right;
+}
+
 .mesh {
   position: absolute;
   inset: 0;
@@ -730,6 +747,12 @@ tr:last-child td {
 }
 
 @media (max-width: 1080px) {
+  .page-credit {
+    position: static;
+    max-width: none;
+    margin: 0.6rem 0.85rem 0;
+  }
+
   .sidebar {
     position: sticky;
     top: 0;

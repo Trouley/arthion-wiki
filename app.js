@@ -4,8 +4,8 @@ const guides = [
     group: "Savaşçı",
     name: "Bedensel Savaşçı",
     accent: "#e45445",
-    role: "Zirve düz vuruş DPS'i, en hızlı Metin/Boss kesimi ve agresif farm temposu.",
-    tags: ["Zirve DPS", "Öfke yenilendi", "Durdurulamaz Hamle"],
+    role: "Zirve düz vuruş DPS'i, en hızlı Metin/Boss kesimi ve agresif farm yapma kabiliyeti.",
+    tags: ["Zirve DPS", "Yenilenmiş Öfke", "Durdurulamaz Hamle"],
     stats: { STR: 100, INT: 0, DEX: 0 },
     overview: [
       "Bedensel Savaşçı, özellikle at üstünden savaşırken oyunun en yüksek DPS üreten sınıfıdır. Bir Metin Taşını en hızlı yok eden ve farm konusunda zirvede yer alan karakter kimliğini korur.",
@@ -85,8 +85,8 @@ const guides = [
         details: [
           ["Silah", "Başlangıçta Kılıç; Ruh Vuruşu ve Şiddetli Vuruş Master olduktan sonra Çift El. 30'da beceri hasarlı KDP, 65'te PvM için Elektromanyetik Pala, PvP için Partizan."],
           ["Takılar", "Beceri Saldırı Değeri, Büyü Hızı ve Hızlı Yenilenme."],
-          ["Efsunlar", "STR, Büyü Hızı, Beceri Hasarı, hasarın HP ile absorbe edilmesi, HP, Yarı insanlara karşı güç."],
-          ["Destek", "İyileştirmeci Şaman ve beceri hasarı odaklı sular."]
+          ["Efsunlar", "STR, Büyü Hızı, Beceri Hasarı, beceri hasarının HP ile absorbe edilmesi, HP, Yarı insanlara karşı güç."],
+          ["Destek", "İyileştirmeci Şamanla birlikte beceri hasarı odaklı sular."]
         ],
         copy: "Ruh Vuruşu > Şiddetli Vuruş > Güçlü Beden > Darbe/Güçlü | STR, Beceri Hasarı, Büyü Hızı, HP Çalma"
       },
@@ -184,7 +184,7 @@ const guides = [
     pros: ["Zirve 1v1 PvP", "Yüksek dayanıklılık", "Kiting ve uzaktan kilit becerileri"],
     cons: ["SP yönetimi hala önemlidir", "At üstü farm saf DPS sınıfları kadar hızlı değildir", "Doğru hedef seçimi ister"],
     updates: [
-      ["Yeni Mekanik", "Ateş Hayaleti", "Toggle çalışır, binek üzerindeyken saldırır ve seçili hedefe öncelik verir."],
+      ["Yeni Mekanik", "Ateş Hayaleti", "Birden fazla hedefe vurur, binek üzerindeyken de çalışır ve seçili hedeflere öncelik verir."],
       ["Yenilendi", "Karanlık Koruma", "Zamanla SP tüketimi kaldırıldı; hasar azaltma beceri seviyesiyle ölçeklenir."],
       ["Yeni Etki", "Ateş Vuruş", "Rakiplere ve canavarlara doğrudan Yanma uygular."],
       ["PvE Hasarı", "Hayalet & Karanlık Vuruş", "Metin Taşları ve Boss'lara karşı ekstra çarpan kazanır."],
@@ -231,19 +231,19 @@ const guides = [
     group: "Ninja",
     name: "Okçu Ninja",
     accent: "#f08d42",
-    role: "Menzil üstünlüğü, kiting ve zehir sinerjisiyle stratejik PvM/PvP.",
+    role: "Menzil üstünlüğü, hızlıca vurup kaçabilme ve zehir sinerjisiyle stratejik PvM/PvP.",
     tags: ["Kıvılcım", "Çoklu hedef", "%60 DEX"],
     stats: { STR: 40, INT: 0, DEX: 60 },
     overview: [
       "Okçu Ninja, menzil üstünlüğünü beceriler ve düz vuruşlarla birleştirerek zorlu içeriklere erken girebilir.",
       "Ateşli Ok'un yeni pasifi her 3. düz ok atışını güçlendirir. Kıvılcım yakın dövüşte geri itme ve zehirleme ile güvenli menzile dönmenizi sağlar."
     ],
-    pros: ["Eşsiz kiting", "Zorlu haritalara erken giriş", "Çift zehir baskısı"],
-    cons: ["Saf DPS lideri değildir", "Konumlanma hataları cezalandırır", "At üstü TTK beceri yapısına göre düşüktür"],
+    pros: ["Kolayca vurup kaçabilme", "Zorlu haritalara erken giriş", "Çift zehir baskısı"],
+    cons: ["Saf DPS lideri değildir", "Konumlanma hataları cezalandırır", "At üstündeki hasarı beceri hasarına göre düşüktür"],
     updates: [
       ["Yenilendi", "Hafif Adım", "Beceri animasyon hızını artırır ve hayalet geçiş etkisi kazandırır."],
       ["Yeni Beceri", "Kıvılcım", "Ok Yağmuru yerine eklendi; yakın dövüşte geri iter, zehirler ve kiting sağlar."],
-      ["Yeni Mekanik", "Çoklu Hedef & Sadak", "Düz vuruşlar birden çok canavarı vurabilir; sadak geliştikçe menzil cezası azalır."],
+      ["Yeni Mekanik", "Çoklu Hedef & Ok Çantası", "Okçu sınıfı ilk seçildiği andan itibaren düz vuruşlar üçlü şekilde vurmaya başlar; 1. seviye kombo ile 4'lü, 2. seviye kombo ile 5'li vurur. Ok Çantası geliştikçe menzil cezası azalır."],
       ["Yeni Pasif", "Ateşli Ok", "Her 3. düz ok atışı canavarlara karşı ciddi güçlenir."],
       ["Statü", "%60 DEX / %40 STR", "Beceri hasarı güçlendirmesi Zırhlı At sonrası aktifleşir."]
     ],
@@ -407,23 +407,23 @@ const guides = [
     stats: { STR: 20, INT: 80, DEX: 0 },
     overview: [
       "Ejderha Gücü Şaman, tek bir alanda mutlak lider olmasa da oyunun en dengeli ve masrafsız karakterlerinden biridir.",
-      "Kendi üzerinde %100 çalışan Kutsama ve Ejderha Yardımı, 1 puanda bile güçlü destek değeri sağlar. Ejderha Atışı'nın yanması Bosslarda yüzdelik can üzerinden baskı kurar."
+      "Kendi üzerinde %100 çalışan Kutsama ve Ejderha Yardımı, 1 puanda bile güçlü destek değeri sağlar. Ejderha Darbesi'nin yanması Bosslarda yüzdelik can üzerinden baskı kurar."
     ],
-    pros: ["Ek hesapsız bağımsız farm", "Yüksek at üstü DPS", "Kutsama ve yansıtma ile güvenlik"],
+    pros: ["Herhangi bir yan hesaba ihtiyaç duymadan farm yapabilme", "Yüksek at üstü DPS", "Kutsama ve yansıtma ile güvenlik"],
     cons: ["En yüksek saf DPS değildir", "Beceri yapısı daha fazla yatırım ister", "Yelpaze/Çan ayrımı önemlidir"],
     updates: [
       ["Yeni Pasif", "Ejderha Kükremesi", "Kullanıldığında silaha canavarlara karşı ekstra düz vuruş güçlendirmesi verir."],
       ["Yeni Mekanik", "Ejderha Yardımı", "Kritik vuruş yapıldığında düşman üzerindeki Yanma süresini uzatır."],
       ["Güçlendirme", "Yansıtma", "Hem düz vuruş hem beceri hasarını yansıtır; P seviyesinde %20+ beceri yansıtma."],
       ["Yeni Kontrol", "Uçan Tılsım", "İsabet ettiği rakiplere yavaşlatma uygular ve 1v1 PvP'de etkilidir."],
-      ["Destek Sistemi", "%100 Kendi Gücü", "Kendi destekleri tam güç, diğer oyunculara %70 etki eder."]
+      ["Destek Sistemi", "%100 Kendi Gücü", "Buffını kendisine tam oranda verirken diğer oyunculara %70 olarak verir."]
     ],
     builds: {
       skill: {
         title: "Beceri Odaklı (Yerden)",
         intro: "Yelpaze ile güçlü alan patlamaları, Uçan Tılsım ve Yansıtma sayesinde erken PvP geçişi sağlar.",
-        early: "Ejderha Kükremesi, Ejderha Atışı, Kutsama ve Ejderha Yardımına 1'er puan verin.",
-        order: ["Ejderha Kükremesi", "Ejderha Atışı", "Ejderha Yardımı / Kutsama / Uçan Tılsım", "Kutsama/Yardım veya Yansıtma/Tılsım", "Kalan beceriler"],
+        early: "Ejderha Kükremesi, Ejderha Darbesi, Kutsama ve Ejderha Yardımına 1'er puan verin.",
+        order: ["Ejderha Kükremesi", "Ejderha Darbesi", "Ejderha Yardımı / Kutsama / Uçan Tılsım", "Kutsama/Yardım veya Yansıtma/Tılsım", "Kalan beceriler"],
         details: [
           ["Silah", "Büyülü saldırı değeri yüksek olduğu için Yelpaze."],
           ["Takılar", "Beceri Saldırı Değeri, Büyü Hızı ve Hızlı Yenilenme."],
@@ -436,7 +436,7 @@ const guides = [
         title: "At Üstü (Düz Vuruş)",
         intro: "Kendi Kutsama ve Kritik destekleriyle sıfır ek hesapla rahat farm yapar.",
         early: "Destekler 1 puanda P değerinin %30'unu verdiği için saldırı becerilerini erkenden geliştirmek rahattır.",
-        order: ["Ejderha Kükremesi", "Ejderha Yardımı", "Kutsama veya Ejderha Atışı", "Kalan destek/hasar becerileri"],
+        order: ["Ejderha Kükremesi", "Ejderha Yardımı", "Kutsama veya Ejderha Darbesi", "Kalan destek/hasar becerileri"],
         details: [
           ["Silah", "Yüksek fiziksel saldırı değeri ve saldırı hızı sebebiyle Çan; örnek Antik Çan."],
           ["Takılar", "Ortalama Saldırı Değeri, Kritik, Delici, Kritik Gücü ve Saldırı Hızı."],
@@ -447,11 +447,11 @@ const guides = [
       }
     },
     summary: [
-      ["Beceri Sırası", "Kükreme > E. Atışı > Kutsama/Yardım/Tılsım", "Kükreme > E. Yardımı > Kutsama/Atış"],
+      ["Beceri Sırası", "Kükreme > E. Darbesi > Kutsama/Yardım/Tılsım", "Kükreme > E. Yardımı > Kutsama/Darbe"],
       ["Statü & Efsun", "INT, Beceri Hasarı, Büyü Hızı, HP Çalma", "%80 INT/%20 STR, Ortalama Zarar, Kritik"],
       ["Silah", "Yelpaze", "Çan: Antik Çan vb."],
       ["Destek", "İyileştirmeci Şaman", "Kendi destekleri"],
-      ["Avantaj", "Alan hasarı, yanma, yansıtma", "Ek hesapsız yüksek at üstü DPS"]
+      ["Avantaj", "Alan hasarı, yanma, yansıtma", "Herhangi bir yan hesaba ihtiyaç duymadan yüksek at üstü DPS"]
     ]
   }
 ];
