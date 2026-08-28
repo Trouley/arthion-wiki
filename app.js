@@ -487,17 +487,6 @@ const systemGuide = {
 };
 
 const allItems = [...guides, systemGuide];
-const sourceFiles = {
-  "bedensel": "Bedensel_Savasci_Rehberi_Temiz.pdf",
-  "zihinsel": "Zihinsel_Savasci_Rehberi.pdf",
-  "buyulu-silah": "Buyulu_Silah_Sura_Rehberi_Temiz.pdf",
-  "kara-buyu": "Kara_Buyu_Sura_Rehberi_Temiz.pdf",
-  "okcu": "Okcu_Ninja_Rehberi.pdf",
-  "bicakci": "Bicakci_Ninja_Rehberi.pdf",
-  "iyilestirmeci": "Iyilestirmeci_Saman_Rehberi.pdf",
-  "ejderha": "Ejderha_Gucu_Saman_Rehberi.pdf",
-  "sistem": "Genel_Sinif_Degisiklikleri_Temiz.pdf"
-};
 let activeId = "bedensel";
 let activeMode = "skill";
 
@@ -663,7 +652,6 @@ function renderRail(item) {
       <div><strong>Aktif Başlık</strong><span>${item.name}</span></div>
       <div><strong>Rol</strong><span>${item.role}</span></div>
       <div><strong>Etiketler</strong><span>${item.tags.join(", ")}</span></div>
-      <div><strong>Kaynak PDF</strong><span>${sourceFiles[item.id]}</span></div>
     </div>
   `;
 }
