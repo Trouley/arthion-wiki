@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arthion Metin2 Wiki Portalı</title>
+  <meta name="description" content="Metin2 sınıf rehberleri, sistem değişiklikleri, beceri sıraları ve efsun önerileri için modern wiki portalı.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <span class="sigil sigil-one"></span>
+    <span class="sigil sigil-two"></span>
+    <span class="mesh"></span>
+  </div>
+
+  <aside class="sidebar" aria-label="Hızlı erişim">
+    <a class="brand" href="#top" aria-label="Arthion Wiki ana sayfa">
+      <span class="brand-mark">A</span>
+      <span>
+        <strong>Arthion Wiki</strong>
+        <small>Metin2 Sınıf Portalı</small>
+      </span>
+    </a>
+
+    <div class="search-shell">
+      <label for="searchInput">Canlı Arama</label>
+      <div class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Sınıf, beceri, efsun ara..." autocomplete="off">
+      </div>
+    </div>
+
+    <nav class="nav-list" id="navList" aria-label="Sınıf sekmeleri"></nav>
+  </aside>
+
+  <main class="page" id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">House rehberlerinden derlendi</p>
+        <h1>Metin2 sınıfları için hızlı, okunur ve oynanışa hazır wiki.</h1>
+        <p class="lead">Beceri sırası, efsun önceliği, at üstü ve yerden yapılandırmalar, yeni pasifler ve Arthion sistem değişiklikleri tek ekranda.</p>
+      </div>
+      <div class="hero-panel" aria-label="Portal özeti">
+        <div>
+          <strong id="classCount">8</strong>
+          <span>Sınıf rehberi</span>
+        </div>
+        <div>
+          <strong>2</strong>
+          <span>Oynanış yapısı</span>
+        </div>
+        <div>
+          <strong>1</strong>
+          <span>Genel sistem bölümü</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-grid" id="quickGrid" aria-label="Hızlı sınıf kartları"></section>
+
+    <section class="content-layout">
+      <article class="guide-panel" id="guidePanel" aria-live="polite"></article>
+      <aside class="right-rail" id="rightRail" aria-label="Hızlı referans"></aside>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Panoya kopyalandı</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
