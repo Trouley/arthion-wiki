@@ -181,7 +181,7 @@ const guides = [
       "Kara Büyü Sura, Karanlık Koruma ve Ateş Hayaleti ile 1v1 düellolarında ve açık alan PvP'sinde en zorlu sınıflardan biridir.",
       "PvM tarafı ciddi güçlendirildi: Ateş Hayaleti açılıp kapatılabilir hale geldi, binek üstünde çalışır ve SP tüketimi azaltıldı."
     ],
-    pros: ["Zirve 1v1 PvP", "Yüksek dayanıklılık", "Kiting ve uzaktan kilit becerileri"],
+    pros: ["Zirve 1v1 PvP", "Yüksek dayanıklılık", "Vurup kaçma ve uzaktan kilit becerileri"],
     cons: ["SP yönetimi hala önemlidir", "At üstü farm saf DPS sınıfları kadar hızlı değildir", "Doğru hedef seçimi ister"],
     updates: [
       ["Yeni Mekanik", "Ateş Hayaleti", "Birden fazla hedefe vurur, binek üzerindeyken de çalışır ve seçili hedeflere öncelik verir."],
@@ -193,9 +193,9 @@ const guides = [
     builds: {
       skill: {
         title: "Beceri Odaklı (Yerden)",
-        intro: "Karanlık Vuruş'un düşük bekleme süresi ve Karanlık Küre'nin gücüyle yüksek hasar, kiting ve PvP hakimiyeti sunar.",
+        intro: "Karanlık Vuruş'un düşük bekleme süresi ve Karanlık Küre'nin gücüyle yüksek hasar, vurup kaçma ve PvP hakimiyeti sunar.",
         early: "Ateş Hayaleti, Ateş Vuruş, Karanlık Vuruş ve Karanlık Küreye 1'er puan verin.",
-        order: ["Ateş Hayaleti", "Karanlık Vuruş", "Karanlık Koruma veya Karanlık Küre", "Seçilmeyen Koruma/Küre", "Ateş Vuruş veya Hayalet Vuruş"],
+        order: ["Ateş Hayaleti", "Karanlık Vuruş", "Karanlık Koruma veya Karanlık Küre", "Karanlık Koruma / Karanlık Küre", "Ateş Vuruş veya Hayalet Vuruş"],
         details: [
           ["Silah", "30'da beceri hasarlı Dolunay Kılıcı; 65'te PvM için Şeytan Çıkarma Kılıcı, PvP için Hortlak Dişi Kılıcı."],
           ["Takılar", "Beceri Saldırı Değeri, Büyü Hızı ve Hızlı Yenilenme."],
@@ -242,7 +242,7 @@ const guides = [
     cons: ["Saf DPS lideri değildir", "Konumlanma hataları cezalandırır", "At üstündeki hasarı beceri hasarına göre düşüktür"],
     updates: [
       ["Yenilendi", "Hafif Adım", "Beceri animasyon hızını artırır ve hayalet geçiş etkisi kazandırır."],
-      ["Yeni Beceri", "Kıvılcım", "Ok Yağmuru yerine eklendi; yakın dövüşte geri iter, zehirler ve kiting sağlar."],
+      ["Yeni Beceri", "Kıvılcım", "Ok Yağmuru yerine eklendi; yakın dövüşte geri iter, zehirler ve vurup kaçma imkanı sağlar."],
       ["Yeni Mekanik", "Çoklu Hedef & Ok Çantası", "Okçu sınıfı ilk seçildiği andan itibaren düz vuruşlar üçlü şekilde vurmaya başlar; 1. seviye kombo ile 4'lü, 2. seviye kombo ile 5'li vurur. Ok Çantası geliştikçe menzil cezası azalır."],
       ["Yeni Pasif", "Ateşli Ok", "Her 3. düz ok atışı canavarlara karşı ciddi güçlenir."],
       ["Statü", "%60 DEX / %40 STR", "Beceri hasarı güçlendirmesi Zırhlı At sonrası aktifleşir."]
@@ -250,7 +250,7 @@ const guides = [
     builds: {
       skill: {
         title: "Beceri Odaklı (Yerden)",
-        intro: "Ateşli Ok, Zehirli Ok ve Kıvılcım ile yerden kiting, alan hasarı ve açık alan PvP avantajı sağlar.",
+        intro: "Ateşli Ok, Zehirli Ok ve Kıvılcım ile yerden vurup kaçma, alan hasarı ve açık alan PvP avantajı sağlar.",
         early: "Ateşli Ok, Zehirli Ok, Hafif Adım ve Kıvılcıma 1'er puan verin.",
         order: ["Ateşli Ok", "Zehirli Ok", "Hafif Adım veya Kıvılcım", "Kalan beceriler", "Tekrarlanan Atış"],
         details: [
@@ -280,7 +280,7 @@ const guides = [
       ["Statü & Efsun", "%60 DEX/%40 STR, Beceri Hasarı, Büyü Hızı", "DEX, Ortalama Zarar, Saldırı Hızı, Kritik/Delici"],
       ["Silah", "Yay: GBY/Sarı Ejderha Yayı", "Yüksek ortalamalı GBY/üst düzey yay"],
       ["Destek", "İyileştirmeci Şaman", "Ejderha Gücü Şaman"],
-      ["Avantaj", "Kiting ve PvP menzili", "Rahat farm ve çoklu hedef"]
+      ["Avantaj", "Vurup kaçabilme ve PvP menzili", "Rahat farm ve çoklu hedef"]
     ]
   },
   {
@@ -394,7 +394,7 @@ const guides = [
       ["Statü & Efsun", "%80 INT/%20 STR, Beceri Hasarı, Büyü Hızı", "INT, Ortalama Zarar, Saldırı Hızı, Kritik/Delici"],
       ["Silah", "Yelpaze", "Çan: Antik Çan vb."],
       ["Destek", "Kendi destekleri", "Ejderha Gücü Şaman"],
-      ["Avantaj", "Büyü DPS, kiting ve PvP", "Standart rahat farm"]
+      ["Avantaj", "Büyü DPS, vurup kaçabilme ve PvP", "Standart rahat farm"]
     ]
   },
   {
