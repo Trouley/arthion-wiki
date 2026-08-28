@@ -366,31 +366,31 @@ const guides = [
         title: "Beceri Odaklı (Yerden)",
         intro: "Yelpaze ile düşük bekleme süreli büyü patlamaları ve güçlü anlık alan hasarı üretir.",
         early: "Şimşek Çağırma, Şimşek Atma, Yüksek Saldırı ve Hızlılığa 1'er puan verin.",
-        order: ["Şimşek Atma", "Şimşek Çağırma", "Yüksek Saldırı / Şimşek Pençesi / İyileştirme", "Kalan destek ve hasar becerileri", "Hızlılık"],
+        order: ["Şimşek Çağırma", "Şimşek Atma", "Yüksek Saldırı / Şimşek Pençesi / İyileştirme", "Kalan destek ve hasar becerileri", "Hızlılık"],
         details: [
           ["Silah", "Büyülü saldırı değeri yüksek olduğu için Yelpaze tercih edilir."],
           ["Takılar", "Beceri Saldırı Değeri, Büyü Hızı ve Hızlı Yenilenme."],
           ["Efsunlar", "INT, Büyü Hızı, Beceri Hasarı, HP Çalma, HP, Zehirleme, Yarı insan."],
           ["Destek", "Kendi Yüksek Saldırı ve Hızlılık yeterlidir; zorlu içerikte Kutsama için Ejderha Şamanı eklenebilir."]
         ],
-        copy: "Şimşek Atma > Çağırma > Yüksek Saldırı/İyileştirme > Hızlılık | INT, Beceri Hasarı, Büyü Hızı"
+        copy: "Şimşek Çağırma > Şimşek Atma > Yüksek Saldırı/İyileştirme > Hızlılık | INT, Beceri Hasarı, Büyü Hızı"
       },
       mount: {
         title: "At Üstü (Düz Vuruş)",
         intro: "Çan kullanarak at sırtından standart ve daha az eforlu farm yapar.",
-        early: "Şimşek Atma ve Şimşek Çağırma hasar temelini kurar; desteklerden 1 puanda bile yüksek verim alınır.",
-        order: ["Şimşek Atma", "Şimşek Çağırma", "Yüksek Saldırı / İyileştirme", "Kalan beceriler", "Hızlılık"],
+        early: "Şimşek Çağırma ve Şimşek Atma hasar temelini kurar; desteklerden 1 puanda bile yüksek verim alınır.",
+        order: ["Şimşek Çağırma", "Şimşek Atma", "Yüksek Saldırı / İyileştirme", "Kalan beceriler", "Hızlılık"],
         details: [
           ["Silah", "Yüksek fiziksel saldırı değeri ve saldırı hızı nedeniyle Çan; örnek Antik Çan."],
           ["Takılar", "Ortalama Saldırı Değeri, Kritik, Delici, Kritik Gücü ve Saldırı Hızı."],
           ["Efsunlar", "Ortalama Zarar, INT, Saldırı Hızı, vuruş HP emişi, HP, Zehirleme, Sersemletme, Kritik/Delici, Yarı insan."],
           ["Destek", "Ejderha Gücü Şaman at üstü farm için neredeyse zorunludur."]
         ],
-        copy: "Şimşek Atma > Çağırma > Yüksek Saldırı/İyileştirme | Ortalama Zarar, INT, Saldırı Hızı, Kritik/Delici"
+        copy: "Şimşek Çağırma > Şimşek Atma > Yüksek Saldırı/İyileştirme | Ortalama Zarar, INT, Saldırı Hızı, Kritik/Delici"
       }
     },
     summary: [
-      ["Beceri Sırası", "Şimşek Atma > Çağırma > Yüksek Saldırı/İyileştirme", "Şimşek Atma > Çağırma > Yüksek Saldırı/İyileştirme"],
+      ["Beceri Sırası", "Şimşek Çağırma > Şimşek Atma > Yüksek Saldırı/İyileştirme", "Şimşek Çağırma > Şimşek Atma > Yüksek Saldırı/İyileştirme"],
       ["Statü & Efsun", "%80 INT/%20 STR, Beceri Hasarı, Büyü Hızı", "INT, Ortalama Zarar, Saldırı Hızı, Kritik/Delici"],
       ["Silah", "Yelpaze", "Çan: Antik Çan vb."],
       ["Destek", "Kendi destekleri", "Ejderha Gücü Şaman"],
