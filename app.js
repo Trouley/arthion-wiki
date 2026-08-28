@@ -352,7 +352,7 @@ const guides = [
       "İyileştirmeci Şaman, pozisyon odaklı oynamayı sevenler için yüksek hareket ve büyü hızı sunar.",
       "Yüksek Saldırı artık yüzdelik beceri hasarı verir. Şimşek Çağırma canavarlara felç uygular ve Hızlı Büyü Yenilenmesi bekleme sürelerini rahatlatır."
     ],
-    pros: ["Yüksek büyü DPS'i", "Kiting ve iyileşme", "Erken PvM/PvP dengesi"],
+    pros: ["Yüksek büyü DPS'i", "Vurup kaçabilme ve iyileşme", "Erken PvM/PvP dengesi"],
     cons: ["At üstü farm TTK'sı daha düşüktür", "Yelpaze/Çan ayrımına dikkat ister", "Beceri isabeti ve konumlanma önemlidir"],
     updates: [
       ["Yenilendi", "Yüksek Saldırı", "Doğrudan yüzdelik Beceri Hasarı artışı kazandırır."],
