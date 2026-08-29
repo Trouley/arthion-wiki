@@ -358,7 +358,7 @@ const guides = [
       ["Yenilendi", "Yüksek Saldırı", "Doğrudan yüzdelik Beceri Hasarı artışı kazandırır."],
       ["Yeni Pasif", "Hızlı Büyü Yenilenmesi", "Bir beceri oyuncuya isabet etmediğinde bekleme süresini hızla yeniler."],
       ["Yeni Pasif", "Şimşek Çağırma", "Kullanıldığında silaha canavarlara karşı ekstra düz vuruş güçlendirmesi verir."],
-      ["PvE Hasarı", "Şimşek Çağırma & Şimşek Çağırma", "Her ikisi de Metin/Boss'lara karşı ekstra hasar çarpanı alır. Şimşek Çağırma ise felç etkisi sağlar."],
+      ["PvE Hasarı", "Şimşek Çağırma & Şimşek Atma", "Her ikisi de Metin/Boss'lara karşı ekstra hasar çarpanı alır. Şimşek Çağırma ise felç etkisi sağlar."],
       ["Destek Sistemi", "%100 Kendi Gücü", "Kendi destekleri %100, diğer oyuncularda %70 etki eder; 1 puan P gücünün %30'unu verir."]
     ],
     builds: {
