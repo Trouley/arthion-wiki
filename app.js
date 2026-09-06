@@ -455,7 +455,6 @@ const systemGuide = {
   accent: "#e7bd6f",
   role: "Arthion sınıf dengesi, PvM mekanikleri, statü dağılımı ve PvP sistemleri.",
   tags: ["Statü dengesi", "Zırhlı At şartı", "PvP revizyonu"],
-  stats: { STR: 34, INT: 33, DEX: 33 },
   overview: [
     "Arthion sistemlerinin amacı, her sınıfın kendi benzersiz rolünü ve oynanış tarzını korurken tek başına rekabetçi kalabilmesini sağlamaktır.",
     "Tüm sınıflar hem yerden beceri PvM hem de at üstü düz vuruş PvM yapısında etkili olacak şekilde güncellenmiştir."
@@ -485,8 +484,6 @@ let activeMode = "skill";
 const navList = document.querySelector("#navList");
 const quickGrid = document.querySelector("#quickGrid");
 const guidePanel = document.querySelector("#guidePanel");
-const rightRail = document.querySelector("#rightRail");
-const contentLayout = document.querySelector(".content-layout");
 const searchInput = document.querySelector("#searchInput");
 const toast = document.querySelector("#toast");
 
@@ -518,10 +515,8 @@ function renderGuide() {
   if (item.id === "sistem") {
     activeMode = "skill";
     renderSystem(item);
-    renderSystemRail(item);
   } else {
     renderClass(item);
-    clearRail();
   }
 }
 
@@ -628,29 +623,6 @@ function renderSystem(item) {
       ${summaryTable(item.summary, "Saldırı Değeri Oranı", "Azami Karşılık")}
     </section>
   `;
-}
-
-function renderSystemRail(item) {
-  contentLayout.classList.add("has-rail");
-  rightRail.hidden = false;
-  rightRail.innerHTML = `
-    <h3>Statü Görselleştirici</h3>
-    <div class="stat-bars">
-      ${Object.entries(item.stats).map(([stat, value]) => `
-        <div class="stat-row">
-          <span>${stat}</span>
-          <div class="bar" aria-label="${stat} ${value}%"><span style="--value:${value}%"></span></div>
-          <strong>${value}%</strong>
-        </div>
-      `).join("")}
-    </div>
-  `;
-}
-
-function clearRail() {
-  contentLayout.classList.remove("has-rail");
-  rightRail.hidden = true;
-  rightRail.innerHTML = "";
 }
 
 function summaryTable(rows, leftLabel, rightLabel) {
